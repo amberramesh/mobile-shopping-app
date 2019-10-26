@@ -1,0 +1,69 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Administrator Panel"
+        android:textColor="#0F0F0F"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rd_button"
+        android:id="@+id/apAddProduct"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Add New Product"
+        android:textColor="#F5F5F5"
+        android:padding="20dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rd_button"
+        android:id="@+id/apUpdProduct"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Update Existing Product"
+        android:textColor="#F5F5F5"
+        android:padding="20dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rd_button"
+        android:id="@+id/apDelProduct"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Delete Product"
+        android:textColor="#F5F5F5"
+        android:padding="20dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rd_button"
+        android:id="@+id/apAddAdmin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Create New Admin"
+        android:textColor="#F5F5F5"
+        android:padding="20dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rd_button"
+        android:id="@+id/apDelUser"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Delete User"
+        android:textColor="#F5F5F5"
+        android:padding="20dp" />
+
+</LinearLayout>

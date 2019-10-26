@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menuMyAccount"
+        android:title="My Account" />
+
+    <item android:id="@+id/menuViewCart"
+        android:title="View Cart" />
+
+    <item android:id="@+id/menuLogout"
+        android:title="Logout" />
+
+</menu>

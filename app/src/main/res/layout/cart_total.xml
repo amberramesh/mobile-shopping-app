@@ -1,0 +1,27 @@
+<LinearLayout android:id="@+id/cartTotal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Price: "
+        android:textColor="#0F0F0F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="50" />
+
+    <TextView
+        android:id="@+id/ctTotal"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#009900"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="50" />
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/colorBackground"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Account Registration"
+            android:textSize="20sp"
+            android:textColor="#0F0F0F"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/rgUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:background="@drawable/rd_text"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/rgPassword"
+        android:layout_marginTop="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:background="@drawable/rd_text"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/rgConfirmPass"
+        android:layout_marginTop="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:background="@drawable/rd_text"
+        android:padding="15dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rd_button"
+        android:id="@+id/rgSubmit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="#F5F5F5"
+        android:padding="20dp" />
+
+</LinearLayout>
